@@ -34,14 +34,14 @@ Example result plots can be found in the report.
 Example usage:
 Prepare data to be used by the models
 
-python data_collection.py --target --start --end
-python data_collection.py ADVANCED_WS 1990 2005
+- python data_collection.py --target --start --end
+- python data_collection.py ADVANCED_WS 1990 2005
 
-python data_collection.py --target --start --end
-python data_collection.py ADVANCED_WS 2005 2006
+- python data_collection.py --target --start --end
+- python data_collection.py ADVANCED_WS 2005 2006
 
 Train the models and generate outputs
-python draft_prediction.py --target --train_start --train_end --test_start --test_end
-python draft_prediction.py ADVANCED_WS 1990 2005 2005 2006
+- python draft_prediction.py --target --train_start --train_end --test_start --test_end
+- python draft_prediction.py ADVANCED_WS 1990 2005 2005 2006
 
 Be careful, data collected years and training years must match!
