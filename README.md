@@ -14,12 +14,12 @@ The project is divided into 2 parts:
 2. Model Training and Evaluation
 
 
-1. Data Collection
+#### 1. Data Collection
 The data is collected from basketball-reference.com and sportsipy.
 You can use data_collection.py to collect the data. data_preparation() function can be used to collect and clean the data.
 Then you can use get_proper_data() function to get the data in the proper format, for model training and evaluation.
 
-2. Model Training and Evaluation
+#### 2. Model Training and Evaluation
 There are 2 models in this project.
 - Decision Tree Regression
 - Random Forest Regression
