@@ -355,3 +355,6 @@ def main():
     regression(target, train_start, train_end, test_start, test_end)
     random_forest_regression(target, train_start, train_end, test_start, test_end)
     pair_plot(target, train_start, train_end)
+    
+if __name__ == "__main__":
+    main()
