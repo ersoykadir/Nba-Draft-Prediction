@@ -274,3 +274,6 @@ def main():
     start = sys.argv[2]
     end = sys.argv[3]
     data_preparation(int(start), int(end), target)
+    
+if __name__ == "__main__":
+    main()
